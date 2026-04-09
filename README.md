@@ -1,6 +1,5 @@
 # Browser History App  
 
-🚀 **[Live Demo → Click Here](https://bhistoryd17.ccbp.tech/)** 🚀  
 
 ## Description  
 A browser history management application built using React. This app allows users to view, search, and delete browsing history records efficiently. Designed with a clean UI, it helps users manage their browsing data effortlessly.  
@@ -14,7 +13,7 @@ A browser history management application built using React. This app allows user
 ## Installation  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/Darshanas17/browser-history-app.git
+   git clone https://github.com/Nabeel-Farooq/browserhistory/
    ```  
 2. Navigate to the project folder:  
    ```sh
@@ -46,6 +45,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License  
 This project is licensed under the MIT License.  
-
-## Contact  
-For any queries, reach out to [Darshan](https://github.com/Darshanas17).  
