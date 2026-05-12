@@ -1,12 +1,82 @@
-* {
+/* =========================
+   Global Reset
+========================= */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+/* =========================
+   Root Defaults
+========================= */
+:root {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
+
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Prevent font scaling issues on mobile */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* =========================
+   Base Body Styles
+========================= */
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: inherit;
+  background-color: #fff;
+  color: #000;
+}
+
+/* =========================
+   Media Defaults
+========================= */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* =========================
+   Form Element Inheritance
+========================= */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* =========================
+   Improve Text Wrapping
+========================= */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
