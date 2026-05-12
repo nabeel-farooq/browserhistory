@@ -2,6 +2,11 @@ import BrowserHistory from "./components/BrowserHistory";
 
 import "./App.css";
 
-const App = () => <BrowserHistory />;
+/**
+ * Root application component
+ */
+const App = () => {
+  return <BrowserHistory />;
+};
 
 export default App;
